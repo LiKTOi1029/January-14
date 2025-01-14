@@ -5,7 +5,7 @@ This script generates a half pyramid of stars based on the input:\
 	Output:\
 	\*\
 	\*\*\
-	\*\*\*\
+	\*\*\*
 # EmailChecker
 
 This script checks if a given input is in valid email syntax as shown in `EmailCheckerValidSyntax.txt`\
