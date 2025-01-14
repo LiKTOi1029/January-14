@@ -20,7 +20,7 @@ function SecondsToMinutes()
 end
 function MinutesToSeconds()
 	io.write("How many Minutes:Seconds?\n")
-	local input = io.read()
+	repeat input = io.read() until input:match "%d+"
 	local tMinutesSeconds = {}
 	for num1 in string.gmatch(input, "%d+") do
 		if num1 == "%d+" and string.len(num1) < 3 then table.insert(tMinutesSeconds, num1) elseif tonumber(num1)> 60 then print("Something's wrong with your syntax. \nThis converter is capped at 60 60 and no higher\nTry again"); MinutesToSeconds() end
