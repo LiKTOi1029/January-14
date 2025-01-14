@@ -16,7 +16,7 @@ Input: Toooty@.com\
 Output: Invalid\
 \
 Input: SwissCheese.com\
-Output: Invalid\
+Output: Invalid
 # MinutesToSeconds
 
 This script converts minutes into seconds.\
