@@ -5,4 +5,4 @@ for num0 = 1, input, 1 do
 	end
 	io.write("\n")
 end
-print("Done after " .. os.time() .. " seconds")
+print("Done after " .. os.clock() .. " seconds")
