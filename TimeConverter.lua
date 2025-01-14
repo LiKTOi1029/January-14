@@ -19,11 +19,9 @@ function SecondsToMinutes()
 	return output1 .. output2
 end
 function MinutesToSeconds()
-	io.write("How many minutes? (separate seconds using the syntax in ConverterGuide.txt)\n")
+	io.write("How many Minutes:Seconds?\n")
 	local input = io.read()
-	for num1 in string.gmatch("%d+") do
-		
-	end
+	local position = 1
 end
 while breaker == nil do
 	io.write("1) Minutes To Seconds\n2) Seconds to Minutes\n")

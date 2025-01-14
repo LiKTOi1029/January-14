@@ -17,22 +17,21 @@ Output: Invalid\
 \
 Input: SwissCheese.com\
 Output: Invalid
-# MinutesToSeconds
+# TimeConverter
 
-This script converts minutes into seconds.\
+This script converts minutes into seconds and back into minutes.\
+Second to Minutes:\
 Input: 90\
 Output: 1 Minute and 30 Seconds\
 \
 Input: 121\
 Output: 2 Minutes and 1 Second\
 \
-ADDITIONAL CHANGES: I will make it so that you can interchangably convert from minutes to seconds and back to minutes from seconds
-\
 Minutes to Seconds:\
-Input: 4 5\
+Input: 4:5\
 Output: 245 Seconds\
 \
-Input: 0 1\
+Input: 0:1\
 Output: 1 Second\
 \
 Notice how the script also uses both plural and singular forms of Minute and Second based on the output.\
