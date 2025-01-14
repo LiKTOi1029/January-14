@@ -26,4 +26,6 @@ Output: 1 Minute and 30 Seconds\
 Input: 121\
 Output: 2 Minutes and 1 Second\
 \
-Notice how the script also uses both plural and singular forms of Minute and Second based on the output.
+Notice how the script also uses both plural and singular forms of Minute and Second based on the output.\
+\
+ADDITIONAL CHANGES: I will make it so that you can interchangably convert from minutes to seconds and back to minutes from seconds
