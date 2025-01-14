@@ -34,4 +34,4 @@ Output: 245 Seconds\
 Input: 0:1\
 Output: 1 Second\
 \
-Notice how the script also uses both plural and singular forms of Minute and Second based on the output.\
+Notice how the script also uses both plural and singular forms of Minute and Second based on the output.
